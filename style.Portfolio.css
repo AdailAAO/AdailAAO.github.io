@@ -190,7 +190,7 @@ body {
             height: 100%;
         }
     }    
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 620px) {
         .nome{
             color: rgb(1, 22, 10);
             font-family: Georgia;
@@ -212,7 +212,7 @@ body {
 
         }
    }
-    @media screen and (max-width: 300px) {
+    @media screen and (max-width: 320px) {
         .nome{
             color: rgb(1, 22, 10);
             font-family: Georgia;
@@ -230,8 +230,14 @@ body {
             justify-content: center;
         }
         .post{
+            background: rgb(12, 192, 247);
+            border: 3px solid #000;
+            border-radius: 1%;
+            padding-right: 10px;
             width: max;
+            margin-left: 5px;
+             }
 
-        }
-    }
+ }
+ 
      
