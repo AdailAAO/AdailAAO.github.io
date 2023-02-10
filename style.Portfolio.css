@@ -212,3 +212,26 @@ body {
 
         }
    }
+    @media screen and (max-width: 300px) {
+        .nome{
+            color: rgb(1, 22, 10);
+            font-family: Georgia;
+            display: flex;
+            justify-content: center;
+            margin-left: 50px;
+        }
+        .foto{
+            display: flex;
+            justify-content: center;
+            margin-left: 80px;
+        }
+        h1{
+            display: flex;
+            justify-content: center;
+        }
+        .post{
+            width: max;
+
+        }
+    }
+     
