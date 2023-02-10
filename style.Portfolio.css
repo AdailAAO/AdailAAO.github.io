@@ -184,13 +184,12 @@ body {
     margin-bottom: 30px;
     }
     /*  media queries */ 
-     @media screen and (max-width: 1024px){
+    @media screen and (max-width: 1024px){
         body{
             background: rgba(247, 246, 244, 0.76);
             height: 100%;
         }
-        
-    }
+    }    
     @media screen and (max-width: 600px) {
         .nome{
             color: rgb(1, 22, 10);
@@ -208,4 +207,4 @@ body {
             display: flex;
             justify-content: center;
         }
-    }
+   }
