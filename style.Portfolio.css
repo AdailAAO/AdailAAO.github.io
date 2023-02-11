@@ -190,7 +190,7 @@ body {
             height: 100%;
         }
     }    
-    @media screen and (max-width: 620px) {
+    @media screen and (max-width: 720px) {
         .nome{
             color: rgb(1, 22, 10);
             font-family: Georgia;
@@ -218,7 +218,7 @@ body {
             font-family: Georgia;
             display: flex;
             justify-content: center;
-            margin-left: 50px;
+            margin: auto;
             width: 320px;
         }
         .foto{
