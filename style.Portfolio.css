@@ -191,6 +191,10 @@ body {
         }
     }    
     @media screen and (max-width: 720px) {
+        body{
+            background: red;
+            height: 100%;
+        }
         .nome{
             color: rgb(1, 22, 10);
             font-family: Georgia;
@@ -213,6 +217,10 @@ body {
         }
    }
     @media screen and (max-width: 320px) {
+        body{
+            background: brown;
+            height: 100%;
+        }
         .nome{
             color: rgb(1, 22, 10);
             font-family: Georgia;
