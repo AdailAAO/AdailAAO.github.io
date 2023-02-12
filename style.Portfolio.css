@@ -215,7 +215,7 @@ body {
             width: max;
 
         }
-   }
+    }
     @media screen and (max-width: 320px) {
         body{
             background: gray;
@@ -246,7 +246,6 @@ body {
             width: max;
             margin-left: 5px;
              }
-
- }
+     }
  
      
