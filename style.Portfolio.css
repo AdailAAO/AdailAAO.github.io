@@ -189,7 +189,29 @@ body {
             background: rgba(247, 246, 244, 0.76);
             height: 100%;
         }
-    }    
+    } 
+     @media screen and (max-width: 620px) {
+        .nome{
+            color: rgb(1, 22, 10);
+            font-family: Georgia;
+            display: flex;
+            justify-content: center;
+            margin-left: 50px;
+        }
+        .foto{
+            display: flex;
+            justify-content: center;
+            margin-left: 80px;
+        }
+        h1{
+            display: flex;
+            justify-content: center;
+        }
+        .post{
+            width: max;
+
+        }
+    }
     @media screen and (max-width: 320px) {
        body{
             background: gray;
