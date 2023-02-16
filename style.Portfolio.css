@@ -20,6 +20,7 @@ body {
 
 .nome2 {
     margin-left: 300px;
+    color: blue;
 }
 .foto2 {
     border-radius: 1%;
@@ -43,15 +44,20 @@ body {
 .sf {
     color: blue;
 }
+.fc {
+    color: blue;
+}
 .foto4{
     border-radius: 25%;
     border: 2px solid rgb(252, 252, 253);
     margin-top: 5px;
+    color: blue;
     }
 .foto5{
     border-radius: 25%;
     border: 2px solid rgb(252, 252, 253);
     margin-top: 10px;
+    color: blue;
     }
 .foto6{
     border-radius: 100%;
@@ -70,10 +76,12 @@ body {
     border-radius: 50%;
     border: 2px solid rgb(247, 13, 13);
     margin-top: 5px;
-    color: red;
     }
 .nav-item{
     list-style: none;
+    }
+    .nav-link{
+        color: blue;
     }
 .img-login
     {
@@ -88,6 +96,7 @@ body {
     margin-left: 30px;
     padding: 20px;
     margin-bottom: 30px;
+    color: blue;
     }
     /*  media queries */ 
     @media screen and (max-width: 1024px){
@@ -146,8 +155,7 @@ body {
         }
         h2{
             display: flex;
-            margin-left: 30px;
+            margin-left: 20px;
         }
      }
- 
      
