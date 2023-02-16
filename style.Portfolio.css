@@ -1,5 +1,5 @@
 body {
-    background: rgba(247, 246, 244, 0.76);
+    background: rgb(12, 192, 247);
     height: 100%;
 }
 
@@ -9,7 +9,7 @@ body {
     width: 60%;
     height: 60%;
     margin-top: 10px;
-    margin-left: 30px;
+    margin-left: 550px;
 }
 
 .nome {
@@ -19,32 +19,8 @@ body {
 }
 
 .nome2 {
-    margin-left: 250px;
+    margin-left: 300px;
 }
-
-.post {
-    background: rgb(12, 192, 247);
-    border: 3px solid #000;
-    border-radius: 1%;
-    padding-right: 10px;
-    width: max;
-    max-height: 100%;
-    margin-left: 5px;
-}
-
-.imagem2 {
-    padding-left: 10px;
-    width: 25%;
-    height: 50%;
-}
-
-.secao {
-    background-color: rgb(153, 153, 243);
-    height: 100vh;
-    width: 250px;
-    margin-right: 80%;
-}
-
 .foto2 {
     border-radius: 1%;
     border: 3px solid rgb(247, 243, 243);
@@ -53,26 +29,6 @@ body {
     height: 50%;
     margin-top: 15px;
     margin-left: 30px;
-}
-
-.EX {
-    color: blue;
-    font-size: 45px;
-    margin-left: 15px;
-}
-
-.ED {
-    color: blue;
-    font-size: 45px;
-    margin-left: 15px;
-}
-
-.experiencia {
-    border-radius: 1%;
-    border: 1px solid rgb(20, 4, 248);
-    padding-right: 10px;
-    width: max;
-    margin-left: 20px;
 }
 
 .rs {
@@ -119,62 +75,11 @@ body {
 .nav-item{
     list-style: none;
     }
-.form
-    {
-    box-shadow: 1px 1px 5px  #ccc;
-    background-color: white;
-    padding: 30px;
-    border-radius: 5px;
-    width: 400px;
-    margin: auto;
-    margin-top: 40px;
-    }
-.login
-    {
-    font-family: sans-serif;
-    text-align: center;
-    }
 .img-login
     {
     border-radius: 50px;
     width: 100px;
     box-shadow: 0px 0px 5px #ccc;
-    }
-.logar
-    {
-    color: blue;
-    }
-.login-group > label
-    {
-    width: 55%;
-    color: red;
-    display:block;
-    }
-.login-group > input
-    {
-     border-radius: 2px;
-     width: 200px;
-     height: 25px;
-     padding: 10px;
-     outline: 0;
-    }
-.login-group
-    {
-    padding-bottom: 10px;
-    }
-.login-group > button
-    {
-    background-image: linear-gradient(to right, red, blue);
-    border-radius: 30px;
-    padding: 15px;
-    width: 100%;
-    color: white;
-    border: 0px;
-    outline: 0;
-    }
-.btn button:hover
-    {
-    background-image: linear-gradient(to left, red, blue); 
     }
 .link
     {
@@ -213,43 +118,36 @@ body {
 
         }
     }
-    @media screen and (max-width: 320px) {
+    @media screen and (max-width: 600px) {
        body{
-            background: gray;
+            background: rgb(12, 192, 247);
             height: 100%;
         }
         .nome2 {
             display: flex;
             justify-content: center;
             align-items: center;
+            margin-left: 150px;
         }
         .nome{
             color: rgb(1, 22, 10);
             font-family: Georgia;
             display: flex;
             justify-content: center;
-            margin: auto;
-            width: 320px;
+            margin-left: 30px;
         }
         .foto{
             display: flex;
             justify-content: center;
-            margin-left: 80px;
         }
         h1{
             display: flex;
             justify-content: center;
         }
-        .post{
-            background: rgb(12, 192, 247);
-            border: 3px solid #000;
-            border-radius: 1%;
+        h2{
             display: flex;
-            justify-content: center;
-            align-items: center;
-            width: max;
-             }
+            margin-left: 30px;
+        }
      }
-    
  
      
